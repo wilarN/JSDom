@@ -1,0 +1,65 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    transition-duration: 0.3s;
+}
+
+.top-div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+    text-align: left;
+}
+
+.center-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-div{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background: black;
+    width: 600px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid red;
+}
+
+#good_vibes{
+    margin-bottom: 50px;
+}
+
+img{
+    max-width: 300px;
+}
+
+button{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: rgb(0, 143, 143);
+    color: white;
+    font-size: 3vh;
+}
+
+button:hover{
+    background: rgb(0, 121, 121);
+}
+
+@media (max-width: 750px) {
+    .center-container{
+        flex-direction: row;
+    }
+    .center-div{
+        width: auto;
+    }
+}
